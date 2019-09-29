@@ -1,16 +1,28 @@
 import React from 'react';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import './App.scss';
-import Header from './Components/Header';
+import Navbar from './Components/Navbar';
 import HomePage from './Views/HomePage';
+import AboutPage from './Views/AboutPage';
+import ContactPage from './Views/ContactPage';
+import ServicePage from './Views/ServicesPage';
 
 
 function App() {
   return (
-    <div className="App"
-      <Header />
-      <div className="container">
-        <HomePage />
-      </div>
+    <div className="App">
+      
+      <BrowserRouter>
+        <Navbar />
+        <div className="container">
+          <Switch>
+            <Route exact path="/" component={HomePage} />
+            <Route path="/about" component={AboutPage} />
+            <Route path="/contact" component={ContactPage} />
+            <Route path="/services" component={ServicePage} />
+        </Switch>
+        </div>
+      </BrowserRouter>
     </div>
   );
 }
