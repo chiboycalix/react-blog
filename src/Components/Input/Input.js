@@ -3,10 +3,12 @@ import './Input.scss';
 
 export default function Input(props) {
   return (
-    <input 
-      onChange={props.onChange}
-      type={props.type}
-      value={props.value}
-    />
+      <input 
+            onChange={props.onChange}
+            type={props.type}
+            value={props.value}
+            placeholder={props.placeholder}
+          />
+    
   )
 }

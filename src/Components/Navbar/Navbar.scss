@@ -1,11 +1,15 @@
-$primary-color: #1089ff;
-$color: #494949;
+
 nav{
-  background: transparent;
-  color: $color;
+  background: #5ca0d3;
+  top: 0;
+  left: 0;
   position: fixed;
   width: 100%;
+  height: 60px;
   display: flex;
+  z-index: 10;
+  padding: 20px;
+  color: white;
 
   ul{
     list-style: none;
@@ -16,7 +20,7 @@ nav{
     li{
       padding: 0 50px;
       a{
-        color: $color;
+        color: white;
         text-decoration: none;
       }
     }

@@ -6,6 +6,8 @@ import HomePage from './Views/HomePage';
 import AboutPage from './Views/AboutPage';
 import ContactPage from './Views/ContactPage';
 import ServicePage from './Views/ServicesPage';
+import SignupPage from './Views/SignupPage';
+import LoginPage from './Views/LoginPage';
 
 
 function App() {
@@ -20,6 +22,8 @@ function App() {
             <Route path="/about" component={AboutPage} />
             <Route path="/contact" component={ContactPage} />
             <Route path="/services" component={ServicePage} />
+            <Route path="/signup" component={SignupPage} />
+            <Route path="/login" component={LoginPage} />
         </Switch>
         </div>
       </BrowserRouter>

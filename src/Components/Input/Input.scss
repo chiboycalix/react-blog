@@ -1,4 +1,11 @@
 input{
-  width: 70%;
-  margin-left: 15%;
+  width: 100%;
+  margin:5px 0 25px 0;
+  padding: 13px;
+  font-size: 17px;
+  border-radius: 5px;
+  border: 1px solid #c4c4c4;
+}
+::placeholder {
+  color: #c4c4c4;
 }

@@ -1,0 +1,27 @@
+.shadow{
+  box-shadow: 2px 2px 3px 3px rgba(189, 186, 186, 0.6);
+}
+
+.loginPageWrapper{
+  width: 70%;
+  margin: 70px auto;
+  border: none;
+  padding: 50px;
+}
+
+.loginText{
+  margin: 5px auto;
+  text-align: center;
+}
+form{
+  width: 100%;
+}
+.socialLogin{
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0px;
+}
+.socialMessage{
+  margin: 20px 0;
+  text-align: center;
+}
